@@ -1,0 +1,27 @@
+{
+  "name": "ng-whatsapp-format",
+  "version": "1.0.0",
+  "description": "Angular pipe to format WhatsApp-style text (bold, italic, strikethrough, code, etc.)",
+  "author": "Satyam Agarwal",
+  "keywords": [
+    "angular",
+    "whatsapp",
+    "formatting",
+    "pipe",
+    "text-formatting",
+    "ng-whatsapp-format",
+    "angular whatsapp package"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

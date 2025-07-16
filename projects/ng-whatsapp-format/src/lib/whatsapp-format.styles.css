@@ -1,0 +1,42 @@
+.whatsapp-bold {
+  font-weight: bold;
+}
+
+.whatsapp-italic {
+  font-style: italic;
+}
+
+.whatsapp-strike {
+  text-decoration: line-through;
+}
+
+.whatsapp-monospace {
+  font-family: monospace;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.whatsapp-inline-code {
+  font-family: monospace;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.whatsapp-quote {
+  border-left: 4px solid #ccc;
+  padding-left: 10px;
+  margin-left: 5px;
+  color: #555;
+}
+
+.whatsapp-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.whatsapp-bullet,
+.whatsapp-numbered {
+  list-style-type: none;
+}
