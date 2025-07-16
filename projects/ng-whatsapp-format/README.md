@@ -86,18 +86,6 @@ message = "*Bold* _Italic_ ~Strike~ `Code` > Quote google.com";
 - Styles are injected only once per application run
 - Multi-line bullet and numbered lists, and triple backtick monospace are not enabled in this version, but can be enhanced by uncommenting related code in the source
 
-## Security
-
-⚠️ **Important Security Notice**
-
-This pipe generates HTML. Use only on trusted content. Binding user-supplied or untrusted text to `[innerHTML]` can open XSS vulnerabilities.
-
-**Recommendations:**
-
-- Sanitize input if you cannot guarantee its safety
-- Only use with trusted content sources
-- Consider using Angular's DomSanitizer for additional protection
-
 ## License
 
 MIT
